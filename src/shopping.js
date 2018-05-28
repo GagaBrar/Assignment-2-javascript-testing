@@ -20,6 +20,7 @@ describe("Cart", () => {
         const cart = new Cart();
         cart.scan(1)
         cart.scan(2)
+        cart.scan(3)
         cart.scan(4)
         cart.scan(5)
    

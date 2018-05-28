@@ -19,9 +19,7 @@ class Cart {
     remove(product) {
       if (this.products.length <= 1) {
         return "buy something plz!!!."
-      } else {
-        this.products.pop()
-      }
+      } 
     }
   
     items() {
